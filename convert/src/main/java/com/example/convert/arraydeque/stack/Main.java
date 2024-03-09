@@ -1,4 +1,4 @@
-package com.example.convert.arraydeque;
+package com.example.convert.arraydeque.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
