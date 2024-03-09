@@ -29,7 +29,7 @@ public class Main {
         // 접근
         Integer first = treeSet.first(); // 첫번째 요소 (가장 낮은 요소, 정렬은 기본이 오름차순이다.)
         System.out.println(first); // 2
-        Integer last = treeSet.last();
+        Integer last = treeSet.last(); // 마지막 요소 (가장 높은 요소, 정렬은 기본이 오름차순이다.)
         System.out.println(last); // 3
 
         // 반복
