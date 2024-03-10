@@ -9,6 +9,15 @@ public class Main {
 
         /**
          * C++ stack 은 Java 의 ArrayDeque 로 대체하면 편하다.
+         *
+         * 특징
+         * - First In Last out
+         *
+         * 시간복잡도
+         * - 추가 : O(1)
+         * - 삭제 : O(1)
+         * - 탐색 : O(n), 스택은 탐색을 위한 자료구조가 아님
+         * - top 접근 : O(1)
          */
 
         Deque<Integer> stack = new ArrayDeque<>();

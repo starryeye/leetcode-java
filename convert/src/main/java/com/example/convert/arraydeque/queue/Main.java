@@ -9,6 +9,15 @@ public class Main {
 
         /**
          * C++ queue 는 Java 의 ArrayDeque 로 대체할 수 있다.
+         *
+         * 특징
+         * - First In First out
+         *
+         * 시간복잡도
+         * - 추가 : O(1)
+         * - 삭제 : O(1)
+         * - 탐색 : O(n), 큐는 탐색을 위한 자료구조가 아님
+         * - front 접근 : O(1)
          */
 
         Queue<Integer> queue = new ArrayDeque<>();
