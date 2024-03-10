@@ -9,6 +9,16 @@ public class Main {
 
         /**
          * C++ 의 unordered_map 은 Java 의 HashMap 로 대체할 수 있다.
+         *
+         * 특징
+         * - 해시 테이블
+         * - 순서 보장하지 않음
+         * - 키 중복 없음
+         *
+         * 시간 복잡도
+         * - 추가 : O(1)
+         * - 삭제 : O(1)
+         * - 탐색 : O(1)
          */
 
         Map<String, Integer> map = new HashMap<>();

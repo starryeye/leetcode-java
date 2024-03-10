@@ -8,6 +8,16 @@ public class Main {
 
         /**
          * C++ vector 는 Java 의 ArrayList 로 대체 할 수 있다.
+         *
+         * 특징
+         * - 동적 배열
+         *
+         * 시간 복잡도
+         * - 추가 : O(1)
+         * - 인덱스 접근 : O(1)
+         * - 삭제 : O(n), 뒤에 있던 요소를 당겨야한다.
+         * - 탐색 : O(n)
+         * - 배열 크기 조정 : O(n)
          */
 
         ArrayList<Integer> arrayList = new ArrayList<>();

@@ -9,6 +9,16 @@ public class Main {
 
         /**
          * C++ 의 unordered_set 은 Java 의 HashSet 으로 대체 할 수 있다.
+         *
+         * 특징
+         * - 해시 테이블
+         * - 순서 보장하지 않음
+         * - 값 중복 없음
+         *
+         * 시간 복잡도
+         * - 추가 : O(1)
+         * - 삭제 : O(1)
+         * - 탐색 : O(1)
          */
 
         Set<Integer> set = new HashSet<>();

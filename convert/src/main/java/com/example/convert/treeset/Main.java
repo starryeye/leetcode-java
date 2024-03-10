@@ -9,6 +9,15 @@ public class Main {
 
         /**
          * C++ 의 set 은 Java 의 TreeSet 으로 대체할 수 있다.
+         *
+         * - 레드 블랙 트리
+         * - 키 중복 없음
+         * - 순서 보장
+         *
+         * 시간 복잡도
+         * - 추가 : O(logN)
+         * - 삭제 : O(logN)
+         * - 탐색 : O(logN)
          */
 
         TreeSet<Integer> treeSet = new TreeSet<>(); // Set<Integer> 로 선언하면 first, last 의 메서드 이용 불가
