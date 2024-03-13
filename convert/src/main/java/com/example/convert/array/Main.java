@@ -17,6 +17,8 @@ public class Main {
         // 수정
         ints[5] = 5;
 
+        // 길이
+        int length = ints.length;
 
         // 반복
         for(int i = 0; i < size; i++) {

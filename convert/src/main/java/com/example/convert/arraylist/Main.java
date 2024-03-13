@@ -36,6 +36,9 @@ public class Main {
         // 특정 위치의 값을 변경
         arrayList.set(5, 5);
 
+        // 길이
+        int size = arrayList.size();
+
         // 삭제
         arrayList.remove(Integer.valueOf(1)); // 요소를 삭제
         arrayList.remove(0); // 인덱스로 삭제
