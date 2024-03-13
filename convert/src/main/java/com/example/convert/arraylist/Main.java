@@ -1,6 +1,7 @@
 package com.example.convert.arraylist;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -20,15 +21,20 @@ public class Main {
          * - 배열 크기 조정 : O(n)
          */
 
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<>();
 
         // 추가
         arrayList.add(1);
         arrayList.add(2);
         arrayList.add(3);
+        arrayList.add(4);
+        arrayList.add(3);
 
         // 특정 위치에 추가
         arrayList.add(0, 0);
+
+        // 특정 위치의 값을 변경
+        arrayList.set(5, 5);
 
         // 삭제
         arrayList.remove(Integer.valueOf(1)); // 요소를 삭제
@@ -40,7 +46,7 @@ public class Main {
 
         // 반복
         for (Integer num : arrayList) {
-            System.out.println(num);
+            System.out.println(num); // 2, 3, 4, 5
         }
 //        arrayList.forEach(System.out::println);
 //        arrayList.stream().forEach(System.out::println);
