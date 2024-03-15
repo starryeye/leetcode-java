@@ -19,14 +19,14 @@ public class Constructor {
 
         ArrayList<Integer> arrayList1 = new ArrayList<>(); // empty arrayList
         ArrayList<Integer> arrayList2 = new ArrayList<>(10); // 크기를 미리 할당한 케이스, 초기값 0
-        ArrayList<Integer> arrayList3 = new ArrayList<>(before()); // Collection 을 이용한 케이스
+        ArrayList<Integer> arrayList3 = new ArrayList<>(generateHashSet()); // Collection 을 이용한 케이스
 
         ArrayList<Integer> arrayList4 = Stream.generate(() -> -1)
                 .limit(5)
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
-    private static Collection<Integer> before() {
+    private static Collection<Integer> generateHashSet() {
         HashSet<Integer> set = new HashSet<>();
         set.add(1);
         set.add(2);
