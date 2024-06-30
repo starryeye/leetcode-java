@@ -1,6 +1,7 @@
 package com.example.convert.list;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -42,6 +43,15 @@ public class Main {
         mutableList.set(0, 0);
         // 반복
         for (Integer element : mutableList) {
+            System.out.println(element);
+        }
+
+        // 변경 가능 리스트 2
+        List<Integer> mutableList2 = Arrays.asList(-1, -2, -3);
+        // 특정 위치의 값 변경
+        mutableList2.set(0, 0);
+        // 반복
+        for (Integer element : mutableList2) {
             System.out.println(element);
         }
     }
